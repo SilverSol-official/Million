@@ -1,0 +1,46 @@
+body{
+    background-color:  #6E15AB;
+}
+button{
+    margin-top: 50px;
+    width: 30%;
+ }
+ .container{
+     width:60%;
+ }
+ .rules{
+    width:60%;
+    margin: 20px auto;
+    text-align: justify;
+    border : solid 2px black;
+    border-radius: 13px;
+    padding:10px;
+    background-color: black;
+    color:white;
+
+ }
+@media(max-width:680px){
+    button{
+        margin-top: 50px;
+        width: 30%;
+     }
+     .container{
+         width:90%;
+     }
+     .rules{
+        width: 90%;
+     }
+}
+@media(max-width:290px){
+    button{
+        margin-top: 50px;
+        width: 100%;
+     }
+     .container{
+         width:100%;
+     }
+     img{
+        width: 250px;
+
+     }
+}
